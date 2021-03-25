@@ -1,0 +1,31 @@
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/poppins/Poppins-Regular.ttf");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/poppins/Poppins-Medium.ttf");
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/poppins/Poppins-SemiBold.ttf");
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/poppins/Poppins-Bold.ttf");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/poppins/Poppins-Italic.ttf");
+    font-style: italic;
+  }
+  #desktop {
+    display: none;
+  }
+}
+/*# sourceMappingURL=mobileLandscape-style.css.map */
