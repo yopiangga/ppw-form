@@ -1,53 +1,53 @@
 @media only screen and (min-width: 1024px) {
 
 
-@font-face {
-    font-family: "Poppins";
-    src: url('../fonts/poppins/Poppins-Regular.ttf');
-    font-weight: 400;
-}
+    @font-face {
+        font-family: "Poppins";
+        src: url('../fonts/poppins/Poppins-Regular.ttf');
+        font-weight: 400;
+    }
 
-@font-face {
-    font-family: "Poppins";
-    src: url('../fonts/poppins/Poppins-Medium.ttf');
-    font-weight: 500;
-}
+    @font-face {
+        font-family: "Poppins";
+        src: url('../fonts/poppins/Poppins-Medium.ttf');
+        font-weight: 500;
+    }
 
-@font-face {
-    font-family: "Poppins";
-    src: url('../fonts/poppins/Poppins-SemiBold.ttf');
-    font-weight: 600;
-}
+    @font-face {
+        font-family: "Poppins";
+        src: url('../fonts/poppins/Poppins-SemiBold.ttf');
+        font-weight: 600;
+    }
 
-@font-face {
-    font-family: "Poppins";
-    src: url('../fonts/poppins/Poppins-Bold.ttf');
-    font-weight: 700;
-}
+    @font-face {
+        font-family: "Poppins";
+        src: url('../fonts/poppins/Poppins-Bold.ttf');
+        font-weight: 700;
+    }
 
-@font-face {
-    font-family: "Poppins";
-    src: url('../fonts/poppins/Poppins-Italic.ttf');
-    font-style: italic;
-}
+    @font-face {
+        font-family: "Poppins";
+        src: url('../fonts/poppins/Poppins-Italic.ttf');
+        font-style: italic;
+    }
 
-$fontPrimary : "Poppins";
+    $fontPrimary : "Poppins";
 
-$colorYellow : #FDBF1F;
-$colorBlue : #4A93F1;
-$colorGray : #EEEEEE;
-$colorLight : #F5F5F5;
-$colorGray2: #D9D9D9;
-$colorDark : #00102A;
-$colorDark2 : #6D6C71;
-$colorBlack : #000000;
+    $colorYellow : #FDBF1F;
+    $colorBlue : #4A93F1;
+    $colorGray : #EEEEEE;
+    $colorLight : #F5F5F5;
+    $colorGray2: #D9D9D9;
+    $colorDark : #00102A;
+    $colorDark2 : #6D6C71;
+    $colorBlack : #000000;
 
     .bg-app {
         height: 100vh;
         width: 100%;
-        display: flex; 
+        display: flex;
         position: absolute;
-        z-index: 0; 
+        z-index: 0;
         top: 0;
 
         .bg-left {
@@ -81,6 +81,7 @@ $colorBlack : #000000;
 
             .header-content {
                 height: 50px;
+
                 h1 {
                     font-size: 20px;
                     font-weight: 500;
@@ -114,13 +115,13 @@ $colorBlack : #000000;
                         position: relative;
                         overflow: hidden;
 
-                        .form-body-1.left{
+                        .form-body-1.left {
                             position: absolute;
                             left: -1000px;
                             transition: 900ms;
                         }
 
-                        .form-body-1.right{
+                        .form-body-1.right {
                             position: absolute;
                             left: 1000px;
                             transition: 900ms;
@@ -137,33 +138,33 @@ $colorBlack : #000000;
                                 display: flex;
                                 justify-content: center;
                                 margin-bottom: 30px;
-    
+
                                 img {
                                     width: 80px;
                                 }
                             }
-    
+
                             h2 {
                                 text-align: center;
                                 font-size: 28px;
                                 margin-bottom: 50px;
                                 color: $colorDark2;
-    
+
                                 span {
                                     color: $colorBlue;
                                 }
                             }
-    
+
                             .form-group {
                                 margin-bottom: 30px;
                                 display: flex;
                                 flex-direction: column;
-    
+
                                 label {
                                     color: $colorDark2;
                                     margin-bottom: 15px;
                                 }
-    
+
                                 input {
                                     width: 100%;
                                     height: 35px;
@@ -221,6 +222,7 @@ $colorBlack : #000000;
                                         color: white;
                                         transition: 100ms;
                                     }
+
                                     h4 {
                                         color: $colorDark;
                                     }
@@ -231,6 +233,7 @@ $colorBlack : #000000;
                                         color: white;
                                         transition: 100ms;
                                     }
+
                                     h4 {
                                         color: $colorDark;
                                     }
@@ -238,63 +241,73 @@ $colorBlack : #000000;
 
                                 .item.facebook:hover {
                                     .box {
-                                        background-color: #3B5998;                    
+                                        background-color: #3B5998;
                                     }
                                 }
+
                                 .item.instagram:hover {
                                     .box {
-                                        background-color: #F84733;                    
+                                        background-color: #F84733;
                                     }
                                 }
+
                                 .item.twitter:hover {
                                     .box {
-                                        background-color: #4EA0EC;                    
+                                        background-color: #4EA0EC;
                                     }
                                 }
+
                                 .item.linkedin:hover {
                                     .box {
-                                        background-color: #0B66C3;                    
+                                        background-color: #0B66C3;
                                     }
                                 }
+
                                 .item.pinterest:hover {
                                     .box {
-                                        background-color: #D42E2F;                    
+                                        background-color: #D42E2F;
                                     }
                                 }
+
                                 .item.dribbble:hover {
                                     .box {
-                                        background-color: #EA4C89;                    
+                                        background-color: #EA4C89;
                                     }
                                 }
 
                                 .item.facebook.active {
                                     .box {
-                                        background-color: #3B5998;                    
+                                        background-color: #3B5998;
                                     }
                                 }
+
                                 .item.instagram.active {
                                     .box {
-                                        background-color: #F84733;                    
+                                        background-color: #F84733;
                                     }
                                 }
+
                                 .item.twitter.active {
                                     .box {
-                                        background-color: #4EA0EC;                    
+                                        background-color: #4EA0EC;
                                     }
                                 }
+
                                 .item.linkedin.active {
                                     .box {
-                                        background-color: #0B66C3;                    
+                                        background-color: #0B66C3;
                                     }
                                 }
+
                                 .item.pinterest.active {
                                     .box {
-                                        background-color: #D42E2F;                    
+                                        background-color: #D42E2F;
                                     }
                                 }
+
                                 .item.dribbble.active {
                                     .box {
-                                        background-color: #EA4C89;                    
+                                        background-color: #EA4C89;
                                     }
                                 }
                             }
@@ -303,6 +316,11 @@ $colorBlack : #000000;
                         .form-body-2.left {
                             transition: 900ms;
                             left: 15%;
+                        }
+
+                        .form-body-2.none {
+                            transition: 900ms;
+                            left: -1000px;
                         }
 
                         .form-body-2.right {
@@ -314,25 +332,25 @@ $colorBlack : #000000;
                             transition: 900ms;
                             position: absolute;
                             left: 1000px;
-                            width: 70%; 
+                            width: 70%;
 
                             .icon {
                                 width: 100%;
                                 display: flex;
                                 justify-content: center;
                                 margin-bottom: 30px;
-    
+
                                 img {
                                     width: 80px;
                                 }
                             }
-    
+
                             h2 {
                                 text-align: center;
                                 font-size: 28px;
                                 margin-bottom: 40px;
                                 color: $colorDark2;
-    
+
                                 span {
                                     color: $colorBlue;
                                 }
@@ -376,7 +394,231 @@ $colorBlack : #000000;
                                 }
                             }
                         }
-                     }
+
+                        .form-body-3.left {
+                            transition: 900ms;
+                            left: 10%;
+                        }
+
+                        .form-body-3.right {
+                            transition: 900ms;
+                            left: -1000px;
+                        }
+
+                        .form-body-3 {
+                            transition: 900ms;
+                            position: absolute;
+                            left: 1000px;
+                            width: 80%;
+
+                            .icon {
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                margin-bottom: 30px;
+
+                                img {
+                                    width: 80px;
+                                }
+                            }
+
+                            h2 {
+                                text-align: center;
+                                font-size: 28px;
+                                margin-bottom: 50px;
+                                color: $colorDark2;
+
+                                span {
+                                    color: $colorBlue;
+                                }
+                            }
+
+                            .form-output {
+                                display: flex;
+                                justify-content: space-between;
+
+                                .output-left {
+                                    width: 30%;
+
+                                    .circle {
+                                        width: 150px;
+                                        height: 150px;
+                                        border-radius: 100%;
+                                        overflow: hidden;
+                                        display: flex;
+                                        justify-content: center;
+
+                                        img {
+                                            height: 150px;
+                                        }
+                                    }
+                                }
+
+                                .output-right {
+
+                                    h4 {
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        margin-bottom: 15px;
+                                    }
+
+                                    .row {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        margin-bottom: 15px;
+
+                                        .form-group {
+                                            width: 48%;
+
+                                            label {
+                                                font-size: 14px;
+                                            }
+
+                                            input {
+                                                margin-top: 10px;
+                                                width: 100%;
+                                                height: 35px;
+                                                background-color: transparent;
+                                                color: $colorDark2;
+                                                border: 1px solid $colorGray2;
+                                                outline: none;
+                                                padding: 0px 10px 0px 10px;
+                                                box-sizing: border-box;
+                                                border-radius: 5px;
+                                                font-size: 16px;
+                                            }
+                                        }
+                                    }
+
+                                    .media-social {
+                                        display: flex;
+                                        width: 100%;
+                                        justify-content: space-between;
+
+                                        .item {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            cursor: pointer;
+
+                                            .box {
+                                                width: 50px;
+                                                height: 50px;
+                                                background-color: white;
+                                                border-radius: 10px;
+                                                border: 1px solid $colorGray;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                font-size: 28px;
+                                                margin-bottom: 10px;
+                                                color: $colorDark2;
+                                            }
+
+                                            h4 {
+                                                color: $colorDark2;
+                                                font-size: 14px;
+                                            }
+                                        }
+
+                                        .item:hover {
+                                            .box {
+                                                color: white;
+                                                transition: 100ms;
+                                            }
+
+                                            h4 {
+                                                color: $colorDark;
+                                            }
+                                        }
+
+                                        .item.active {
+                                            .box {
+                                                color: white;
+                                                transition: 100ms;
+                                            }
+
+                                            h4 {
+                                                color: $colorDark;
+                                            }
+                                        }
+
+                                        .item.facebook:hover {
+                                            .box {
+                                                background-color: #3B5998;
+                                            }
+                                        }
+
+                                        .item.instagram:hover {
+                                            .box {
+                                                background-color: #F84733;
+                                            }
+                                        }
+
+                                        .item.twitter:hover {
+                                            .box {
+                                                background-color: #4EA0EC;
+                                            }
+                                        }
+
+                                        .item.linkedin:hover {
+                                            .box {
+                                                background-color: #0B66C3;
+                                            }
+                                        }
+
+                                        .item.pinterest:hover {
+                                            .box {
+                                                background-color: #D42E2F;
+                                            }
+                                        }
+
+                                        .item.dribbble:hover {
+                                            .box {
+                                                background-color: #EA4C89;
+                                            }
+                                        }
+
+                                        .item.facebook.active {
+                                            .box {
+                                                background-color: #3B5998;
+                                            }
+                                        }
+
+                                        .item.instagram.active {
+                                            .box {
+                                                background-color: #F84733;
+                                            }
+                                        }
+
+                                        .item.twitter.active {
+                                            .box {
+                                                background-color: #4EA0EC;
+                                            }
+                                        }
+
+                                        .item.linkedin.active {
+                                            .box {
+                                                background-color: #0B66C3;
+                                            }
+                                        }
+
+                                        .item.pinterest.active {
+                                            .box {
+                                                background-color: #D42E2F;
+                                            }
+                                        }
+
+                                        .item.dribbble.active {
+                                            .box {
+                                                background-color: #EA4C89;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
 
                     .navigation {
                         position: absolute;
@@ -406,7 +648,26 @@ $colorBlack : #000000;
                             display: flex;
                             justify-content: flex-end;
 
+                            .btn-next.none {
+                                display: none;
+                            }
+
                             .btn-next {
+                                margin-right: 20px;
+                                width: 100px;
+                                height: 35px;
+                                background-color: $colorBlue;
+                                color: white;
+                                border-radius: 5px;
+                                outline: none;
+                                border: none;
+                            }
+
+                            .btn-submit.none {
+                                display: none;
+                            }
+
+                            .btn-submit {
                                 margin-right: 20px;
                                 width: 100px;
                                 height: 35px;
@@ -445,8 +706,8 @@ $colorBlack : #000000;
                                     background-color: $colorDark;
                                     display: flex;
                                     justify-content: center;
-                                     align-items: center;
-                                     color: white;
+                                    align-items: center;
+                                    color: white;
                                 }
                             }
 
@@ -482,8 +743,8 @@ $colorBlack : #000000;
                                     background-color: $colorBlue;
                                     display: flex;
                                     justify-content: center;
-                                     align-items: center;
-                                     color: white;
+                                    align-items: center;
+                                    color: white;
                                 }
                             }
 
